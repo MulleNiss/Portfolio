@@ -16,6 +16,11 @@ font-style: normal;
 background-color: rgb(255,255,255);     
 }
 
+h3{
+font-style: normal; 
+background-color: rgb(255,255,255);     
+}
+
 p{
 background-color: rgb(255,255,255);      
 }
@@ -25,9 +30,32 @@ div.a{
 }
 
 div.box {
-  width: 300px;
-  border: 5px solid black;
-  padding: 300px;
-  margin: 20px;
+  width: 700px;
+  height: auto;
+  border: 5px solid yellow;
+  outline: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+}
+
+
+div.box2 {
+  width: 700px;
+  height: auto;
+  border: 5px solid yellow;
+  outline: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+}
+
+div.box3 {
+  width: 700px;
+  height: auto;
+  border: 5px solid yellow;
+  outline: 1px solid black;
+  padding: 5px;
+  margin: 5px;
   background-color: white;
 }
