@@ -35,7 +35,7 @@ div.box {
   border: 5px solid rgb(232,184,53,91);
   outline: 1px solid black;
   padding: 5px;
-  margin: 5px;
+  margin: auto;
   background-color: white;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -48,7 +48,7 @@ div.box2 {
   border: 5px solid rgb(232,184,53,91);
   outline: 1px solid black;
   padding: 5px;
-  margin: 5px;
+  margin: auto;
   background-color: white;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -60,7 +60,7 @@ div.box3 {
   border: 5px solid rgb(232,184,53,91);
   outline: 1px solid black;
   padding: 5px;
-  margin: 5px;
+  margin: auto;
   background-color: white;
   margin-top: 15px;
   margin-bottom: 15px;
