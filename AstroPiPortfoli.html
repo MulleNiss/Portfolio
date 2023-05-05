@@ -4,16 +4,13 @@
     <title>Astro Pi </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
     <link rel="icon" type="image/png" href="Billider/"> 
+    <link rel="stylesheet" href="nyStyle.css">
 <style>
-  *{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    }
+
 .container {
      width: 100%;
      height: 100vh;
-     background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(AstroPiBilleder/Port2Background.png);
+     background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(Port2Background.png);
      background-position: center;
      background-size:  cover;
      background-attachment: fixed;
@@ -22,195 +19,48 @@
      box-sizing: border-box;
      position: relative;
         }
-.Kartotekskort{
-      border-bottom: 30px solid white;
-      border-left: 50px solid transparent;
-      border-right: 50px solid transparent;
-      height: 0;
-      width: 300px;
-      position: absolute;
-      bottom: 0;
-      left: 35%
-    }
-.navbar{
-    height: 12%;
-    display: flex;
-    align-items: center;
-}
-nav{
-    flex: 1;
-    text-align: left;
-    }
-nav ul li{
-    list-style: none;
-    display: inline-block;
-    margin-left: 40px;
-    }
-nav ul li a{
-    text-decoration: none;
-    color:#fff;
-    font-size: 20px;
-    position: relative;
-    }
-nav ul li a::after{
-        content: '';
-        width: 0;
-        height: 3px;
-        position:absolute;
-        bottom: -5px;
-        left: 50%;
-        transform: translateX(-50%);
-        background: #fff;  
-        transition: width 0.3s;
-    }
- nav ul li a:hover::after{
-     width: 90%;
-    }
-h1{
-    color:#fff;
-    font-size: 100px;
-}
-h1-2{
-    color:black;
-    font-size: 70px;
-}
-p{
-    color:#fff;
-    font-size: 17px;
-    line-height: 20px;
-    }
-p-2{
-    color:black;
-    font-size: 17px;
-    line-height: 20px;
-    }
-.col{
-    flex-basis: 60%;
-}
-.col-2{
-    flex-basis: 50%;
-    }
-.col-3{
-    flex-basis: 50%;
-    }
-.col-4{
-    flex-basis: 35%;
-    }
-.col-img{
-    flex-basis: 50%;
-    padding-right: 10%;
-    padding-left: 10%;
-    padding-top: 80px;
-    align-items: center; 
-    }
-.col-img2{
-    flex-basis: 50%;
-    padding-right: 5%;
-    padding-top: 80px;
-    align-items: center; 
-    }
-.col-img3{
-    flex-basis: 50%;
-    padding-right: 5%;
-    padding-left: 0%;
-    align-items: center; 
-    }
-.row{
-    display: flex;
-    height: auto;
-    align-items: center; 
-    padding-top: 10%;
-}
+    
 .row-2{
     display: flex;
     height: auto;
     padding-top: 18%;
 }
-.row-3{
-    display: flex;
-    height: auto;
-}
-.row-4{
-    display: flex;
-    height: auto;
-}
-.row-5{
-     display:flex;
-     position: center;
-     justify-content: center;
-}
-.row-6{
-     display:flex;
-     padding-bottom: 7%;
-}
-.Flowchart{
-     height: auto;
-     width: 90%;
-     padding-bottom: 10%;
-    }
- .row-bottom{
-     display: flex;
-     align-items: center;
-     height: 10%;
-}
+
 .image{
-    background-image: url(AstroPiBilleder/Jordens-magnetfelt.png);
+    background-image: url(Jordens-magnetfelt.png);
     background-size: cover;
     height: 350px;
     width: 500px;
     border-radius: 20px;
     }
 .image2{
-    background-image: url(AstroPiBilleder/SenseHat2.png);
+    background-image: url(SenseHat2.png);
     background-size: cover;
     height: 360px;
     width: 700px;
     border-radius: 20px;
     }
 .image3{
-    background-image: url(AstroPiBilleder/AstroPiCam2.png);
+    background-image: url(AstroPiCam2.png);
     background-size: cover;
     height: 360px;
     width: 660px;
     border-radius: 20px;
     }
-.button{
-    display:block;
-    background-color: black;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    width: 350px;
-    height: 25px;
-    border-radius: 20px;
-    font-size: 20px;
-    transition: transform 0.2s;
-    padding: 15px;
-    
- }
-.button:hover{
-    background-color: #F7932E;
-    transform: translate(0px, -10px);
-    }
     </style>  
 </head>
-    
-    
-    
-    
-    
-    
+ 
 <body>
     <div class="container"> 
         
-        <div class="Kartotekskort"><center><img src="AstroPiBilleder/Pil.png" class="Kartotekskort-Pil"></center></div>
+        <div class="Kartotekskort"><center><img src="Pil.png" class="Kartotekskort-Pil"></center></div>
         
         <div class="navbar">
             <nav>
                 <ul>
-                    <li><a href="index1.html">Portfolie</a></li>
-                    <li><a href="webTeknologier1.html">Webteknologier</a></li>
-                    <li><a href="itSikkerhed1.html">IT-sikkerhed</a></li>
+                    <li><a href="index.html">Portfolie</a></li>
+                    <li><a href="webTeknologier.html">Webteknologier</a></li>
+                    <li><a href="itSikkerhed.html">IT-sikkerhed</a></li>
                     <li><a href="AstroPiPortfoli.html">Astro Pi</a></li>
                     <li><a href="spilOgLeg.html">Spil og Leg</a></li>
                     <li><a href="database.html">Databaser</a></li>
@@ -232,7 +82,7 @@ p-2{
                <h1-2>Kravene til Mission Space Lab</h1-2>
                <br>
                <p-2>Ligesom, med næsten alle andre konkurrencer, er der nogen krav som man skal overholde for at deltage i Mission Space Lab.<br> Disse krav tog vi selvfølgelig højde for, og du kan se dem her.</p-2>
-                <img src="AstroPiBilleder/Astro-PiKrav.png">
+                <img src="Astro-PiKrav.png">
             </div>
             <h4><em>Af Bastian, Axel,<br>Jens Arvid, Malte<br>og Sylvester</em></h4>
         </div>
@@ -288,7 +138,7 @@ p-2{
         <center><h1-2>Flowchart</h1-2></center>
         <br>
         <div class="row-5">
-            <img class="Flowchart" src="AstroPiBilleder/Flowchart.png">
+            <img class="Flowchart" src="Flowchart.png">
         </div>
      
         
@@ -304,8 +154,4 @@ p-2{
                 
         </div>  
     </div>
-            
-            
-            
-            
-            
+    
