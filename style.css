@@ -28,14 +28,10 @@ body {
 .topnav {
     overflow: hidden;
     background-color: black;
-    border-bottom: 1px solid rgb(37, 150, 190);
-    border-left: 1px solid rgb(37, 150, 190);
-    border-right: 1px solid rgb(37, 150, 190);
     position: fixed;
     top: 0px;
     width: 100%;
     z-index: 1000;
-    border-radius: 0px 0px 15px 15px;
 }
 .topnav a{
     float: left;

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Database</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <link rel="icon" type="image/png" href="Billider/"> 
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    }
+.container {
+     width: 100%;
+     height: 100vh;
+     background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://bs-uploads.toptal.io/blackfish-uploads/components/seo/content/og_image_file/og_image/1275009/0712-Bad_Practices_in_Database_Design_-_Are_You_Making_These_Mistakes_Dan_Social-754bc73011e057dc76e55a44a954e0c3.png);
+     background-position: center;
+     background-size:  cover;
+     background-attachment: fixed;
+     padding-left: 5%;
+     padding-right: 5%;
+     box-sizing: border-box;
+     position: relative;
+        }
+.Kartotekskort{
+      border-bottom: 30px solid white;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 300px;
+      position: absolute;
+      bottom: 0;
+      left: 35%
+    }
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: left;
+    }
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    }
+nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+    position: relative;
+    }
+nav ul li a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        position:absolute;
+        bottom: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #fff;  
+        transition: width 0.3s;
+    }
+ nav ul li a:hover::after{
+     width: 90%;
+    }
+h1{
+    color:#fff;
+    font-size: 100px;
+}
+h1-2{
+    color:black;
+    font-size: 70px;
+}
+p{
+    color:#fff;
+    font-size: 17px;
+    line-height: 20px;
+    }
+p-2{
+    color:black;
+    font-size: 17px;
+    line-height: 20px;
+    }
+.col{
+    flex-basis: 60%;
+}
+.col-2{
+    flex-basis: 100%;
+    }
+.col-3{
+    flex-basis: 50%;
+    }
+.col-4{
+    flex-basis: 35%;
+    }
+.col-img{
+    flex-basis: 50%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 80px;
+    align-items: center; 
+    }
+.col-img2{
+    flex-basis: 50%;
+    padding-right: 5%;
+    align-items: center; 
+    }
+.col-img3{
+    flex-basis: 50%;
+    padding-right: 5%;
+    padding-left: 0%;
+    align-items: center; 
+    }
+.row{
+    display: flex;
+    height: auto;
+    align-items: center; 
+    padding-top: 12%;
+}
+.row-2{
+    display: flex;
+    height: auto;
+    padding-top: 22%;
+}
+.row-3{
+    display: flex;
+    height: auto;
+    padding-top: 2%;
+}
+.row-4{
+    display: flex;
+    height: auto;
+}
+.row-5{
+     display:flex;
+     position: center;
+     justify-content: center;
+    padding-top: 2%;
+}
+.row-6{
+     display:flex;
+     padding-bottom: 7%;
+}
+.Flowchart{
+     height: auto;
+     width: 90%;
+     padding-bottom: 10%;
+    }
+ .row-bottom{
+     display: flex;
+     align-items: center;
+     height: 10%;
+}
+.image{
+    background-image: url(normdatabase.png);
+    background-size: cover;
+    height: 450px;
+    width: 485px;
+    border-radius: 20px;
+    }
+.image2{
+    background-image: url(samljshtml.png);
+    background-size: cover;
+    height: 450px;
+    width: 700px;
+    border-radius: 20px;
+    }
+.image3{
+    background-image: url(funktionny.png);
+    background-size: cover;
+    height: 500px;
+    width: 660px;
+    border-radius: 20px;
+    }
+.button{
+    display:block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 350px;
+    height: 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: transform 0.2s;
+    padding: 15px;
+    
+ }
+.button:hover{
+    background-color: #F7932E;
+    transform: translate(0px, -10px);
+    }
+.ul,li{
+        margin-left: 20px;
+    }    
+
+    </style>  
+</head>
+    
+    
+    
+    
+    
+    
+<body>
+    <div class="container"> 
+        
+        <div class="Kartotekskort"><center><img src="AstroPiBilleder/Pil.png" class="Kartotekskort-Pil"></center></div>
+        
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="index1.html">Portfolie</a></li>
+                    <li><a href="webTeknologier1.html">Webteknologier</a></li>
+                    <li><a href="itSikkerhed1.html">IT-sikkerhed</a></li>
+                    <li><a href="AstroPiPortfoli.html">Astro Pi</a></li>
+                    <li><a href="spilOgLeg.html">Spil og Leg</a></li>
+                    <li><a href="database.html">Databaser</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        
+        <div class="row">
+            <div class="col">
+               <h1>Databaser</h1>
+                <p> I dette forløb skal vi udvikle en hjemmeside, denne hjemmeside skal være en quiz eller flashcarsds. Ea, Estrid og jeg valgte at lave en quiz, denne quiz omhandler hvem der har sagt en givent citat, da mig og Ea skriver citater ned vi synes er sjove. Her vil dette projekt blive beskrevet.  </p>
+            </div>
+        </div>
+        
+        
+        <div class="row-2">
+            <div class="col-2">
+               <h1-2>Kort om Databaser</h1-2>
+               <br>
+               <p-2>Databaser er en let måde at holde styr på mange informationer og deres relation til hinanden, i hvertfald hvis de er lavet ordenligt. For at en databaser er lavet ordenlagt skal den være normaliseret efter nogle kriterier. Nedenfor kan du læse mere om normalisering af databaser, og også om vores produkt.</p-2>
+            </div>
+        </div>
+        
+        
+        <div class="row-3">
+            <div class="col-3">
+               <h1-2>Normalisering af databaser</h1-2>
+               <br>
+               <p-2>Ovenfor talte jeg om at en database skal være normaliseret for at den er ordenlig, dette skal den være fordi den dermed bliver nem at "browse" og mere overskuelig. 
+                   <br><br>
+                   For at en database kan være formaliseret skal den overholde nogle krav:
+                   <ul>
+                        <li>Unik primærnøgle</li>
+                        <li>Ingen kolonne må være afhængig andre end primærnøglen</li>
+                        <li>Kun en datatype i hver kolonne</li>
+                        <li>Data må kun forekommer en gang, ellers er det redundant</li>
+                        <li>Data skal være relateret til hinanden</li>
+                   </ul>
+    <br>
+  Som det kan ses er databasen til højre normaliseret ud fra de ovenstående krav. Tabellen med bilerne relatere sig til ejerens Kunde_ID, og hver bil og kunde har et unikt ID. Samtidig kan det ses at der ikke er redundans, da Lars ejer 2 biler, men han fremkommer ikke som person to gange i kunde tabellen.</p-2>
+            </div>
+            <div class="col-img">
+               <div class="image"></div>
+                <br>
+            </div>
+        </div>
+        
+        
+        <h1-2>Sammenkobling af javascript og html</h1-2>
+        <div class="row-4">
+            <div class="col-img2">
+               <div class="image2"></div>
+            </div>
+            <div class="col-4">
+               <br>
+               <p-2>I produktet skulle vi som sagt lave en quiz eller lignende hvormed vi skulle designe en hjemmeside, men for at denne skulle kunne interegere med brugeren, skulle vi også have hjemmesiden til at kører javascript og dette javascript kode skulle også samles med en database.
+                   <br><br>
+                   For at kode html og javascript sammen kan man i sin html-kode lave en &lt;script&gt; dermed forstår hjemmesiden at det er skrevet i javascript, inde i dette tag kan man så definere funktioner ligesom i helt normalt javascript. Dette kan man så kode sammen med html, i f.eks. en knap, når man så klikker på denne knap kan man så bede den om at køre den førnævnte javascript funktion.
+                   <br><br>
+                   Til venstre ses et eksempel på en samling af de to, når man klikker på knappen kører den funktionen GetDate(), denne funktion gemmer så datoen i en variable som kan læses af html koden i id'et demo, og dette bliver så sat ind som tekst.
+                
+                </p-2>
+            </div>
+        </div>
+        <div class="row-5">
+            <div class="col">
+               <br>
+               <h1-2>Vores produkt</h1-2><br>
+               <p-2>
+                Her ses et stykke kode fra vores produkt, funktionen ny() er den der bliver kørt når man klikker på knappen som starter hele vores quiz.
+               <br><br>
+                Linjen hvor variablen x bliver sat til noget, er nok det vigtigste stykke kode i hele programmet, det er nemlig det der gør valget af et citat tilældigt og dermed hele spillet muligt. Det fungere på følgende måde:
+                <br>
+                Først vælges der et tilfældigt tal mellem 0 og 1, dette tal ganges derefter med 4 fordi det er så mange forskellige citater vi har med i vores quiz på nuværende tidspunkt. Dermed har vå altså et decimal tal, dette tal bliver derefter rundet ned til nærmeste heltal, og der bliver lagt 1 til, da vores database starter med ID'et 1.
+                <br><br>
+                Bagefter bliver funktionen genererTekst() kørt, her går i fra 0 til antal elementer i vores database, derefter tager den ID'et fra den i'te række og sammenligner det ID med vores tilfædligt fundne x, hvis de er lig hinanden, tager man citat til det i'te element og ligeledes gøres med personen. Derefter bliver denne løkke stoppet så den ikke bare køre forevigt.
+                <br><br>
+                Nu er vores tilfældige citat fundet og tilhørende person, navnet på knappen der starter spillet bliver så ændret til navnet af vedkommende der har sagt citatet og det er altså en valgmulighed.
+                </p-2>
+            
+            </div>
+             <div class="col-img3">
+                 <br>
+               <div class="image3"></div>
+            </div>
+        </div>
+        <br>
+    </div>
+            
+            
+            
+            
+            
